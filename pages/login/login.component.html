@@ -16,9 +16,12 @@
           </div>
           <div padding>
             <button ion-button size="large" (click)="gotoLogin();" type="submit" [disabled]="form.invalid" expand="block">Login</button>
+            
           </div>
         </ion-col>
       </ion-row>
     </ion-grid>
   </form>
+  <button ion-button size="large" (click)="gotoRegister();" type="button" expand="block">Register</button>
+            <button ion-button size="large" (click)="gotoForgot();" type="button" expand="block">Forgot</button>
 </ion-content>
